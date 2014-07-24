@@ -12,6 +12,9 @@ print stuff['name']
 print stuff['age']
 print stuff['height']
 
+
+print stuff.keys()
+
 stuff[1]='kevinL'
 print stuff
 stuff['age']=100
