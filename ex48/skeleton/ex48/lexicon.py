@@ -7,7 +7,7 @@ def scan(string):
     'stop':['the','in','of','from','at','it'],
     'noun':['door','bear','princess','cabinet']}
     
-    words=string.split(' ')
+    words=string.split()
     # print "Your scetence have been split to:",words
     result=[]
     
@@ -25,7 +25,7 @@ def scan(string):
         if flag==False:
             result.append(('error',word))
     
-    print result
+    # print result
     return result
     
     

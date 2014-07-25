@@ -47,8 +47,8 @@ def test_errors():
                           ('noun', 'princess')])
 
 
-# test_verbs()
-# test_stops()
-# test_nouns()
-# test_numbers()
-# test_errors()
+test_verbs()
+test_stops()
+test_nouns()
+test_numbers()
+test_errors()
